@@ -1,0 +1,272 @@
+{VERSION 2 3 "IBM INTEL NT" "2.3" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 }1 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Warning" 2 7 1 {CSTYLE "" -1 -1 "" 0 
+1 0 0 255 1 0 0 0 0 0 0 1 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "\307\340\344\340\355\350
+\345 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 
+"with(linalg);" }}{PARA 7 "" 1 "" {TEXT -1 32 "Warning, new definition
+ for norm" }}{PARA 7 "" 1 "" {TEXT -1 33 "Warning, new definition for \+
+trace" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7^r%.BlockDiagonalG%,GramSchm
+idtG%,JordanBlockG%)LUdecompG%)QRdecompG%*WronskianG%'addcolG%'addrowG
+%$adjG%(adjointG%&angleG%(augmentG%(backsubG%%bandG%&basisG%'bezoutG%,
+blockmatrixG%(charmatG%)charpolyG%)choleskyG%$colG%'coldimG%)colspaceG
+%(colspanG%*companionG%'concatG%%condG%)copyintoG%*crossprodG%%curlG%)
+definiteG%(delcolsG%(delrowsG%$detG%%diagG%(divergeG%(dotprodG%*eigenv
+alsG%,eigenvaluesG%-eigenvectorsG%+eigenvectsG%,entermatrixG%&equalG%,
+exponentialG%'extendG%,ffgausselimG%*fibonacciG%+forwardsubG%*frobeniu
+sG%*gausselimG%*gaussjordG%(geneqnsG%*genmatrixG%%gradG%)hadamardG%(he
+rmiteG%(hessianG%(hilbertG%+htransposeG%)ihermiteG%*indexfuncG%*innerp
+rodG%)intbasisG%(inverseG%'ismithG%*issimilarG%'iszeroG%)jacobianG%'jo
+rdanG%'kernelG%*laplacianG%*leastsqrsG%)linsolveG%'mataddG%'matrixG%&m
+inorG%(minpolyG%'mulcolG%'mulrowG%)multiplyG%%normG%*normalizeG%*nulls
+paceG%'orthogG%*permanentG%&pivotG%*potentialG%+randmatrixG%+randvecto
+rG%%rankG%(ratformG%$rowG%'rowdimG%)rowspaceG%(rowspanG%%rrefG%*scalar
+mulG%-singularvalsG%&smithG%&stackG%*submatrixG%*subvectorG%)sumbasisG
+%(swapcolG%(swaprowG%*sylvesterG%)toeplitzG%&traceG%*transposeG%,vande
+rmondeG%*vecpotentG%(vectdimG%'vectorG%*wronskianG" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 50 "A := matrix([[3, -2, 2], [2, 1, -1], [5, -1
+, 3]]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7%7%\"\"$
+!\"#\"\"#7%F,\"\"\"!\"\"7%\"\"&F/F*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 30 "B := matrix([[3], [-5], [4]]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"BG-%'MATRIXG6#7%7#\"\"$7#!\"&7#\"\"%" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "x1 := matrix([[x], [y], [z]]);" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%#x1G-%'MATRIXG6#7%7#%\"xG7#%\"yG7#%\"zG" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 7 "det(A);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#9" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "ad := inverse(A);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#adG-%'MATRIXG6#7%7%#\"\"\"\"\"(#\"\"#F,\"
+\"!7%#!#6\"#9#!\"\"F3#F+F.7%#F5F.F8F6" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "av := multiply(ad, B);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#avG-%'MATRIXG6#7%7#!\"\"7#\"\"!7#\"\"$" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 13 "\314\345\362\356\344 \312\360\340\354\345\360\340" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "with(linal
+g);" }}{PARA 7 "" 1 "" {TEXT -1 32 "Warning, new definition for norm" 
+}}{PARA 7 "" 1 "" {TEXT -1 33 "Warning, new definition for trace" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#7^r%.BlockDiagonalG%,GramSchmidtG%,Jor
+danBlockG%)LUdecompG%)QRdecompG%*WronskianG%'addcolG%'addrowG%$adjG%(a
+djointG%&angleG%(augmentG%(backsubG%%bandG%&basisG%'bezoutG%,blockmatr
+ixG%(charmatG%)charpolyG%)choleskyG%$colG%'coldimG%)colspaceG%(colspan
+G%*companionG%'concatG%%condG%)copyintoG%*crossprodG%%curlG%)definiteG
+%(delcolsG%(delrowsG%$detG%%diagG%(divergeG%(dotprodG%*eigenvalsG%,eig
+envaluesG%-eigenvectorsG%+eigenvectsG%,entermatrixG%&equalG%,exponenti
+alG%'extendG%,ffgausselimG%*fibonacciG%+forwardsubG%*frobeniusG%*gauss
+elimG%*gaussjordG%(geneqnsG%*genmatrixG%%gradG%)hadamardG%(hermiteG%(h
+essianG%(hilbertG%+htransposeG%)ihermiteG%*indexfuncG%*innerprodG%)int
+basisG%(inverseG%'ismithG%*issimilarG%'iszeroG%)jacobianG%'jordanG%'ke
+rnelG%*laplacianG%*leastsqrsG%)linsolveG%'mataddG%'matrixG%&minorG%(mi
+npolyG%'mulcolG%'mulrowG%)multiplyG%%normG%*normalizeG%*nullspaceG%'or
+thogG%*permanentG%&pivotG%*potentialG%+randmatrixG%+randvectorG%%rankG
+%(ratformG%$rowG%'rowdimG%)rowspaceG%(rowspanG%%rrefG%*scalarmulG%-sin
+gularvalsG%&smithG%&stackG%*submatrixG%*subvectorG%)sumbasisG%(swapcol
+G%(swaprowG%*sylvesterG%)toeplitzG%&traceG%*transposeG%,vandermondeG%*
+vecpotentG%(vectdimG%'vectorG%*wronskianG" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 50 "A := matrix([[3, -2, 2], [2, 1, -1], [5, -1, 3]]);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7%7%\"\"$!\"#\"
+\"#7%F,\"\"\"!\"\"7%\"\"&F/F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 7 "det(A);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#9" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 52 "D1 := matrix([[3, -2, 2], [-5, 1, -1], [4
+, -1, 3]]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#D1G-%'MATRIXG6#7%7%
+\"\"$!\"#\"\"#7%!\"&\"\"\"!\"\"7%\"\"%F0F*" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 8 "det(D1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!#9" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "D2 := matrix([[3, 3, 2], [2,
+ -5, -1], [5, 4, 3]]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#D2G-%'MAT
+RIXG6#7%7%\"\"$F*\"\"#7%F+!\"&!\"\"7%\"\"&\"\"%F*" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 8 "det(D2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "D3 := matrix([[3, \+
+-2, 3], [2, 1, -5], [5, -1, 4]]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%#D3G-%'MATRIXG6#7%7%\"\"$!\"#F*7%\"\"#\"\"\"!\"&7%\"\"&!\"\"\"\"%" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "det(D3);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"#U" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "X1
+ := -14/14;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#X1G!\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "Y := 0/14;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"YG\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+11 "Z := 42/14;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"ZG\"\"$" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "\307\340\344\340\355\350\345 2." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "with(linal
+g);" }}{PARA 7 "" 1 "" {TEXT -1 32 "Warning, new definition for norm" 
+}}{PARA 7 "" 1 "" {TEXT -1 33 "Warning, new definition for trace" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#7^r%.BlockDiagonalG%,GramSchmidtG%,Jor
+danBlockG%)LUdecompG%)QRdecompG%*WronskianG%'addcolG%'addrowG%$adjG%(a
+djointG%&angleG%(augmentG%(backsubG%%bandG%&basisG%'bezoutG%,blockmatr
+ixG%(charmatG%)charpolyG%)choleskyG%$colG%'coldimG%)colspaceG%(colspan
+G%*companionG%'concatG%%condG%)copyintoG%*crossprodG%%curlG%)definiteG
+%(delcolsG%(delrowsG%$detG%%diagG%(divergeG%(dotprodG%*eigenvalsG%,eig
+envaluesG%-eigenvectorsG%+eigenvectsG%,entermatrixG%&equalG%,exponenti
+alG%'extendG%,ffgausselimG%*fibonacciG%+forwardsubG%*frobeniusG%*gauss
+elimG%*gaussjordG%(geneqnsG%*genmatrixG%%gradG%)hadamardG%(hermiteG%(h
+essianG%(hilbertG%+htransposeG%)ihermiteG%*indexfuncG%*innerprodG%)int
+basisG%(inverseG%'ismithG%*issimilarG%'iszeroG%)jacobianG%'jordanG%'ke
+rnelG%*laplacianG%*leastsqrsG%)linsolveG%'mataddG%'matrixG%&minorG%(mi
+npolyG%'mulcolG%'mulrowG%)multiplyG%%normG%*normalizeG%*nullspaceG%'or
+thogG%*permanentG%&pivotG%*potentialG%+randmatrixG%+randvectorG%%rankG
+%(ratformG%$rowG%'rowdimG%)rowspaceG%(rowspanG%%rrefG%*scalarmulG%-sin
+gularvalsG%&smithG%&stackG%*submatrixG%*subvectorG%)sumbasisG%(swapcol
+G%(swaprowG%*sylvesterG%)toeplitzG%&traceG%*transposeG%,vandermondeG%*
+vecpotentG%(vectdimG%'vectorG%*wronskianG" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 69 "A:=matrix([[4,-2,1,-4,3],[2,-1,1,-1,1],[3,0,-1,1,-3
+],[2,2,-2,5,-6]]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'MATRIXG
+6#7&7'\"\"%!\"#\"\"\"!\"%\"\"$7'\"\"#!\"\"F,F1F,7'F.\"\"!F1F,!\"$7'F0F
+0F+\"\"&!\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "A:=addrow(A
+,2,1,-2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7'\"
+\"!F*!\"\"!\"#\"\"\"7'\"\"#F+F-F+F-7'\"\"$F*F+F-!\"$7'F/F/F,\"\"&!\"'
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "A:=mulrow(A,2,3);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7'\"\"!F*!\"\"!\"#
+\"\"\"7'\"\"'!\"$\"\"$F0F17'F1F*F+F-F07'\"\"#F4F,\"\"&!\"'" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "A:=addrow(A,3,2,-2);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7'\"\"!F*!\"\"!\"#\"\"\"7'F*
+!\"$\"\"&!\"&\"\"*7'\"\"$F*F+F-F/7'\"\"#F6F,F0!\"'" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 17 "A:=mulrow(A,3,2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7'\"\"!F*!\"\"!\"#\"\"\"7'F*!\"$\"
+\"&!\"&\"\"*7'\"\"'F*F,\"\"#!\"'7'F5F5F,F0F6" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 20 "A:=addrow(A,4,3,-3);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7'\"\"!F*!\"\"!\"#\"\"\"7'F*!\"$\"
+\"&!\"&\"\"*7'F*!\"'\"\"%!#8\"#77'\"\"#F9F,F0F4" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 17 "A:=mulrow(A,2,2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7'\"\"!F*!\"\"!\"#\"\"\"7'F*!\"'\"#
+5!#5\"#=7'F*F/\"\"%!#8\"#77'\"\"#F8F,\"\"&F/" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 20 "A:=addrow(A,3,2,-1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7'\"\"!F*!\"\"!\"#\"\"\"7'F*F*\"\"'
+\"\"$F/7'F*!\"'\"\"%!#8\"#77'\"\"#F7F,\"\"&F2" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 17 "A:=mulrow(A,1,6);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"AG-%'MATRIXG6#7&7'\"\"!F*!\"'!#7\"\"'7'F*F*F-\"\"$F-7'F*F+\"
+\"%!#8\"#77'\"\"#F5!\"#\"\"&F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 19 "A:=addrow(A,2,1,1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-
+%'MATRIXG6#7&7'\"\"!F*F*!\"*\"#77'F*F*\"\"'\"\"$F.7'F*!\"'\"\"%!#8F,7'
+\"\"#F5!\"#\"\"&F1" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 69 "B:=ma
+trix([[4,-2,1,-4,3],[2,-1,1,-1,1],[3,0,-1,1,-3],[2,2,-2,5,-6]]);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"BG-%'MATRIXG6#7&7'\"\"%!\"#\"\"\"!
+\"%\"\"$7'\"\"#!\"\"F,F1F,7'F.\"\"!F1F,!\"$7'F0F0F+\"\"&!\"'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gausselim(B);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#-%'MATRIXG6#7&7'\"\"%!\"#\"\"\"!\"%\"\"$7'\"\"!F
+,#!\"&\"\"#\"\"(#!#:F17'F.F.#!\"\"F1#F*F1#!\"$F17'F.F.F.#F,F1F)" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "\307\340\344\340\355\350\345 3." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "with(linal
+g);" }}{PARA 7 "" 1 "" {TEXT -1 32 "Warning, new definition for norm" 
+}}{PARA 7 "" 1 "" {TEXT -1 33 "Warning, new definition for trace" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#7^r%.BlockDiagonalG%,GramSchmidtG%,Jor
+danBlockG%)LUdecompG%)QRdecompG%*WronskianG%'addcolG%'addrowG%$adjG%(a
+djointG%&angleG%(augmentG%(backsubG%%bandG%&basisG%'bezoutG%,blockmatr
+ixG%(charmatG%)charpolyG%)choleskyG%$colG%'coldimG%)colspaceG%(colspan
+G%*companionG%'concatG%%condG%)copyintoG%*crossprodG%%curlG%)definiteG
+%(delcolsG%(delrowsG%$detG%%diagG%(divergeG%(dotprodG%*eigenvalsG%,eig
+envaluesG%-eigenvectorsG%+eigenvectsG%,entermatrixG%&equalG%,exponenti
+alG%'extendG%,ffgausselimG%*fibonacciG%+forwardsubG%*frobeniusG%*gauss
+elimG%*gaussjordG%(geneqnsG%*genmatrixG%%gradG%)hadamardG%(hermiteG%(h
+essianG%(hilbertG%+htransposeG%)ihermiteG%*indexfuncG%*innerprodG%)int
+basisG%(inverseG%'ismithG%*issimilarG%'iszeroG%)jacobianG%'jordanG%'ke
+rnelG%*laplacianG%*leastsqrsG%)linsolveG%'mataddG%'matrixG%&minorG%(mi
+npolyG%'mulcolG%'mulrowG%)multiplyG%%normG%*normalizeG%*nullspaceG%'or
+thogG%*permanentG%&pivotG%*potentialG%+randmatrixG%+randvectorG%%rankG
+%(ratformG%$rowG%'rowdimG%)rowspaceG%(rowspanG%%rrefG%*scalarmulG%-sin
+gularvalsG%&smithG%&stackG%*submatrixG%*subvectorG%)sumbasisG%(swapcol
+G%(swaprowG%*sylvesterG%)toeplitzG%&traceG%*transposeG%,vandermondeG%*
+vecpotentG%(vectdimG%'vectorG%*wronskianG" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 79 "A:=matrix([[-5,0,-3,-13,-3],[-4,1,6,-2,4],[-3,-2,-1
+0,-16,-6],[6,3,-12,0,-18]]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG
+-%'MATRIXG6#7&7'!\"&\"\"!!\"$!#8F,7'!\"%\"\"\"\"\"'!\"#\"\"%7'F,F2!#5!
+#;!\"'7'F1\"\"$!#7F+!#=" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "r
+ank(A);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 13 "gausselim(A);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#-%'MATRIXG6#7&7'!\"&\"\"!!\"$!#8F*7'F)\"\"\"#\"#U\"\"&F.#\"#KF07
+'F)F)#\"#VF0F4F47'F)F)F)F)F)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "
+\307\340\344\340\355\350\345 4." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 13 "with(linalg);" }}{PARA 7 "" 1 "" {TEXT -1 
+32 "Warning, new definition for norm" }}{PARA 7 "" 1 "" {TEXT -1 33 "W
+arning, new definition for trace" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7^
+r%.BlockDiagonalG%,GramSchmidtG%,JordanBlockG%)LUdecompG%)QRdecompG%*W
+ronskianG%'addcolG%'addrowG%$adjG%(adjointG%&angleG%(augmentG%(backsub
+G%%bandG%&basisG%'bezoutG%,blockmatrixG%(charmatG%)charpolyG%)cholesky
+G%$colG%'coldimG%)colspaceG%(colspanG%*companionG%'concatG%%condG%)cop
+yintoG%*crossprodG%%curlG%)definiteG%(delcolsG%(delrowsG%$detG%%diagG%
+(divergeG%(dotprodG%*eigenvalsG%,eigenvaluesG%-eigenvectorsG%+eigenvec
+tsG%,entermatrixG%&equalG%,exponentialG%'extendG%,ffgausselimG%*fibona
+cciG%+forwardsubG%*frobeniusG%*gausselimG%*gaussjordG%(geneqnsG%*genma
+trixG%%gradG%)hadamardG%(hermiteG%(hessianG%(hilbertG%+htransposeG%)ih
+ermiteG%*indexfuncG%*innerprodG%)intbasisG%(inverseG%'ismithG%*issimil
+arG%'iszeroG%)jacobianG%'jordanG%'kernelG%*laplacianG%*leastsqrsG%)lin
+solveG%'mataddG%'matrixG%&minorG%(minpolyG%'mulcolG%'mulrowG%)multiply
+G%%normG%*normalizeG%*nullspaceG%'orthogG%*permanentG%&pivotG%*potenti
+alG%+randmatrixG%+randvectorG%%rankG%(ratformG%$rowG%'rowdimG%)rowspac
+eG%(rowspanG%%rrefG%*scalarmulG%-singularvalsG%&smithG%&stackG%*submat
+rixG%*subvectorG%)sumbasisG%(swapcolG%(swaprowG%*sylvesterG%)toeplitzG
+%&traceG%*transposeG%,vandermondeG%*vecpotentG%(vectdimG%'vectorG%*wro
+nskianG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "A:=matrix([[2,4,
+3,4],[-1,-3,-2,-1],[3,1,3,15],[5,3,4,17]]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7&\"\"#\"\"%\"\"$F+7&!\"\"!\"$!\"#F
+.7&F,\"\"\"F,\"#:7&\"\"&F,F+\"#<" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "A:=mulrow(A,1,1/2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%\"AG-%'MATRIXG6#7&7&\"\"\"\"\"##\"\"$F+F+7&!\"\"!\"$!\"#F/7&F-F*F-
+\"#:7&\"\"&F-\"\"%\"#<" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "A
+:=addrow(A,1,2,1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'MATRIXG
+6#7&7&\"\"\"\"\"##\"\"$F+F+7&\"\"!!\"\"#F0F+F*7&F-F*F-\"#:7&\"\"&F-\"
+\"%\"#<" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "A:=addrow(A,1,3,
+-3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7&\"\"\"\"
+\"##\"\"$F+F+7&\"\"!!\"\"#F0F+F*7&F/!\"&#!\"$F+\"\"*7&\"\"&F-\"\"%\"#<
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "A:=addrow(A,1,4,-5);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7&\"\"\"\"\"##\"
+\"$F+F+7&\"\"!!\"\"#F0F+F*7&F/!\"&#!\"$F+\"\"*7&F/!\"(#F8F+\"\"(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "A:=mulrow(A,2,-1);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7&\"\"\"\"\"##\"\"$F+F+7
+&\"\"!F*#F*F+!\"\"7&F/!\"&#!\"$F+\"\"*7&F/!\"(#F8F+\"\"(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "A:=addrow(A,2,1,-2);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7&\"\"\"\"\"!#F*\"\"#\"\"%7&
+F+F*F,!\"\"7&F+!\"&#!\"$F-\"\"*7&F+!\"(#F7F-\"\"(" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 19 "A:=addrow(A,2,3,5);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7&\"\"\"\"\"!#F*\"\"#\"\"%7&F+F*F,!
+\"\"7&F+F+F*F.7&F+!\"(#F3F-\"\"(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "A:=addrow(A,2,4,7);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%\"AG-%'MATRIXG6#7&7&\"\"\"\"\"!#F*\"\"#\"\"%7&F+F*F,!\"\"7&F+F+F*F
+.7&F+F+F+F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "A:=addrow(A,
+3,1,-1/2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7&\"
+\"\"\"\"!F+\"\"#7&F+F*#F*F,!\"\"7&F+F+F*\"\"%7&F+F+F+F+" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "A:=addrow(A,3,2,-1/2);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7&7&\"\"\"\"\"!F+\"\"#7&F+F*F
++!\"$7&F+F+F*\"\"%7&F+F+F+F+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 68 "
+\304\340\355\355\340\377 \361\350\361\362\345\354\340 \342\345\352\362
+\356\360\356\342 \377\342\353\377\345\362\361\377 \353\350\355\345\351
+\355\356 \347\340\342\350\361\350\354\356\351, \362.\352 \361\363\371.
+x_i != 0" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 10 "\307\340\344\340\355\350\345 5." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "with(linalg);" }}{PARA 7 "" 
+1 "" {TEXT -1 32 "Warning, new definition for norm" }}{PARA 7 "" 1 "" 
+{TEXT -1 33 "Warning, new definition for trace" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#7^r%.BlockDiagonalG%,GramSchmidtG%,JordanBlockG%)LUdeco
+mpG%)QRdecompG%*WronskianG%'addcolG%'addrowG%$adjG%(adjointG%&angleG%(
+augmentG%(backsubG%%bandG%&basisG%'bezoutG%,blockmatrixG%(charmatG%)ch
+arpolyG%)choleskyG%$colG%'coldimG%)colspaceG%(colspanG%*companionG%'co
+ncatG%%condG%)copyintoG%*crossprodG%%curlG%)definiteG%(delcolsG%(delro
+wsG%$detG%%diagG%(divergeG%(dotprodG%*eigenvalsG%,eigenvaluesG%-eigenv
+ectorsG%+eigenvectsG%,entermatrixG%&equalG%,exponentialG%'extendG%,ffg
+ausselimG%*fibonacciG%+forwardsubG%*frobeniusG%*gausselimG%*gaussjordG
+%(geneqnsG%*genmatrixG%%gradG%)hadamardG%(hermiteG%(hessianG%(hilbertG
+%+htransposeG%)ihermiteG%*indexfuncG%*innerprodG%)intbasisG%(inverseG%
+'ismithG%*issimilarG%'iszeroG%)jacobianG%'jordanG%'kernelG%*laplacianG
+%*leastsqrsG%)linsolveG%'mataddG%'matrixG%&minorG%(minpolyG%'mulcolG%'
+mulrowG%)multiplyG%%normG%*normalizeG%*nullspaceG%'orthogG%*permanentG
+%&pivotG%*potentialG%+randmatrixG%+randvectorG%%rankG%(ratformG%$rowG%
+'rowdimG%)rowspaceG%(rowspanG%%rrefG%*scalarmulG%-singularvalsG%&smith
+G%&stackG%*submatrixG%*subvectorG%)sumbasisG%(swapcolG%(swaprowG%*sylv
+esterG%)toeplitzG%&traceG%*transposeG%,vandermondeG%*vecpotentG%(vectd
+imG%'vectorG%*wronskianG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 
+"A:=matrix([[7,8,4],[5,6,3],[-22,-26,-13]]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"AG-%'MATRIXG6#7%7%\"\"(\"\")\"\"%7%\"\"&\"\"'\"\"$7
+%!#A!#E!#8" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "eigenvectors(
+A);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%7%!\"\"\"\"\"<#-%'VECTORG6#7%F%
+F%!\"%7%F%F%<#-F(6#7%\"\"#F%!\"&7%\"\"!F%<#-F(6#7%F4F%!\"#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "64 0 0" 0 }{VIEWOPTS 1 
+1 0 1 1 1803 }
