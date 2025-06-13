@@ -1,0 +1,143 @@
+\documentclass[12pt]{beamer}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{positioning, shadows}
+\usepackage{booktabs}
+\usepackage{mwe}
+\setbeamertemplate{background}{
+    \includegraphics[width=\paperwidth,height=\paperheight]{parallax-bg.jpg}
+}
+
+\usetheme{Dresden}
+\usecolortheme{seahorse}
+\setbeamertemplate{itemize items}[triangle]
+\setbeamercolor{title}{fg=blue!80!black}
+\setbeamercolor{frametitle}{fg=blue!70!black}
+
+\title{История физико-математического факультета}
+\subtitle{Орловского государственного университета}
+\author{Даниил Баранов}
+\date{}
+
+\begin{document}
+
+\begin{frame}[plain]
+    \begin{tikzpicture}[remember picture,overlay]
+        \node[opacity=0.3] at (current page.center) {\includegraphics[width=\paperwidth]{example-image-a}};
+        \fill[blue!80!black, opacity=0.7] (current page.south west) rectangle ([yshift=3cm]current page.north east);
+        \node[text width=0.8\paperwidth, text=white, font=\Huge\bfseries, align=center] at (current page.center) {
+            История физмата\\1931–2023
+        };
+    \end{tikzpicture}
+\end{frame}
+
+\begin{frame}{Рождение факультета (1931-1941)}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \includegraphics[width=\textwidth]{}
+
+\begin{figure}
+            \centering
+            \includegraphics[width=1\linewidth]{}
+\begin{figure}
+                \centering
+                \includegraphics[width=1\linewidth]{image.png}
+                \caption{Первое здание института}
+                \label{fig:enter-label}
+            \end{figure}
+            \label{fig:enter-label}
+        \end{figure}
+
+        \column{0.5\textwidth}
+        \begin{itemize}
+            \item 1931: Создание индустриально-педагогического института
+            \item 121 студент, 11 преподавателей
+            \item 1932: Преобразование в пединститут
+            \item 1935: Первый выпуск - 45 специалистов
+        \end{itemize}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Военные годы и подвиги}
+    \centering
+    \begin{tikzpicture}
+        \node[drop shadow] (war) {\includegraphics[height=4cm]{615-193x300.jpg}};
+        \node[below=0.1cm of war, text width=0.8\textwidth, align=center] {
+            24 преподавателя и студента погибли на войне\\
+            \small{Среди них - Герой Советского Союза В.А. Бульчев}
+        };
+    \end{tikzpicture}
+    
+    \vspace{0.5cm}
+    \begin{alertblock}{Память}
+        Студент Дмитрий Софий (расстрелян в 1942) посмертно награжден медалью
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{1950-е: Восстановление и развитие}
+    \begin{table}
+        \centering
+        \begin{tabular}{lc}
+            \toprule
+            Год & Успеваемость \\
+            \midrule
+            1935 & 87.7\% \\
+            1936 & 93.5\% \\
+            1956-1957 & 95\% \\
+            \bottomrule
+        \end{tabular}
+        \caption{Динамика успеваемости студентов}
+    \end{table}
+    
+    \begin{columns}
+        \column{0.5\textwidth}
+        \begin{itemize}
+            \item Сталинские стипендии
+            \item Новое здание (1957)
+        \end{itemize}
+        
+        \column{0.5\textwidth}
+        \includegraphics[width=\textwidth]{1311-300x175.jpg}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Научные достижения}
+    \centering
+    \begin{tikzpicture}
+        \node (science) {\includegraphics[height=3cm]{812-220x300.jpg}};
+        
+        \node[below=0.1cm of science] {3-томная "История физики"};
+    \end{tikzpicture}
+    
+    \vspace{0.5cm}
+    \begin{exampleblock}{Известные выпускники}
+        Игорь Струков - разработчик космической платформы для изучения "черных дыр"
+    \end{exampleblock}
+\end{frame}
+
+\begin{frame}{Современный физмат}
+    \begin{columns}
+        \column{0.4\textwidth}
+        \includegraphics[width=\textwidth]{282-548x768.jpg}
+        
+        \column{0.6\textwidth}
+        \begin{itemize}
+            \item 7 кафедр
+            \item 634 студента (2007)
+            \item 8 докторов наук
+            \item Компьютерные классы
+            \item Спортивные традиции
+        \end{itemize}
+    \end{columns}
+    
+    \vspace{0.5cm}
+    \centering
+    \begin{block}{}
+        "Физмат был, есть и остаётся основой университета!"
+    \end{block}
+\end{frame}
+
+\end{document}
